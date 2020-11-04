@@ -28,4 +28,4 @@ export const StateProvider: React.FC<StateProviderProps> = ({
     );
 };
 
-export const useStateValue = useContext(StateContext);
+export const useStateValue = () => useContext(StateContext);
