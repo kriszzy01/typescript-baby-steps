@@ -1,7 +1,7 @@
-import React, { FC, ReactNode } from "react";
+import React, { FC, ReactElement } from "react";
 
 interface ButtonProps {
-    children: ReactNode;
+    children: ReactElement;
     handleOnClick: () => void;
 }
 
