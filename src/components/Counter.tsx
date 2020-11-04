@@ -9,9 +9,9 @@ import {
 export const Counter: FC = () => {
     const [{ count }, dispatch] = useStateValue();
 
-    const handleIncreament = () => dispatch(increaseCount());
+    const handleIncreament = (): void => dispatch(increaseCount());
 
-    const handleDecreament = () => dispatch(decreaseCount());
+    const handleDecreament = (): void => dispatch(decreaseCount());
 
     return (
         <div>
