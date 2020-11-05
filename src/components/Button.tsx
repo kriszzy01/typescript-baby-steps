@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from "react";
 
-interface ButtonProps {
+export interface ButtonProps {
     children: ReactNode;
     handleOnClick: () => void;
 }
